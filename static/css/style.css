@@ -1,0 +1,43 @@
+
+.navbar {
+     
+    border-bottom: 1px solid #fff;
+}
+
+
+
+.jumbotron{
+    padding-top: 100px;
+    
+
+}
+
+#yoga-fitness{
+    
+ background-image: url(https://blog.gittigidiyor.com/wp-content/uploads/2018/06/hangi-spora-hangi-mat-modeli-gittigidiyor-blog-4.jpg);
+ background-position: bottom;
+ background-size: cover;
+ opacity: 0.8; 
+}
+
+#zayıf-yönt{
+    background-image: url(https://st.depositphotos.com/1003169/4174/i/600/depositphotos_41749671-stock-photo-healthy-green-detox-juice.jpg);
+    background-position: auto;
+    background-size: cover;
+}
+
+#hayat{
+    background-image: url(https://i.pinimg.com/originals/bc/7e/7d/bc7e7dd6a11a9f330dad0250a154eb64.jpg);
+    background-position: auto;
+    background-size: cover;
+}
+
+#bağ {
+    position: relative;
+    left: -100px;
+}
+
+#col2 {
+    position: relative;
+    right: -40px;
+}

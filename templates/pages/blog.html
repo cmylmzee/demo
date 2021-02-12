@@ -1,0 +1,35 @@
+{% extends 'pages/layout.html' %}
+
+
+{% block content %}
+    
+    {% if yazi %}
+        {% for yazilar in  yazi %}
+            <div class="container mt-5 pt-5">
+                <div class="card mb-3">
+                    <div class="row">
+                        <div class="col md-3">
+                            <div class="card-header">
+                                <h1 class="blockquode text-warning">{{ yazilar.name}} </h1>
+                            </div>
+                            <div class="card-body">
+                                <img class="card-image" src="{{ yazilar.cover.url }}" alt="">
+                                <div class="card-text blockquode"> {{ yazilar.text}} </div>
+                            </div>
+                            
+                            <div class="card-footer blockquode"> {{ yazilar.created_date}}
+                                <p class="blockquode text-muted float-right "> ~{{ yazilar.creater }} </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+        {% else  %}
+                    <div class="aler alert-warning">    <p>No Content</p></div>
+
+    {% endif %}
+                
+
+{% endblock %}
